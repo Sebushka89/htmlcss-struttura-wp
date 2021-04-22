@@ -1,0 +1,31 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 1800px;
+    margin: 20px auto;
+}
+
+header {
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.foto-main {
+    height: 500px;
+    background-color: yellowgreen;
+}
+
+section {
+    background-color: lightskyblue;
+    height: 150px;
+}
